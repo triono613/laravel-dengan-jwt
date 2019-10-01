@@ -16,7 +16,7 @@ Route::group(['middleware' => ['api']], function(){
 
         Route::post('/tutorial_new', 'TutorialController@store') ;
 
-
+        Route::post('/tutorial_new_again', 'TutorialController@store') ;
 
     });
 
