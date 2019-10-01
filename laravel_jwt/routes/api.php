@@ -14,6 +14,8 @@ Route::group(['middleware' => ['api']], function(){
         Route::get('/profile', 'UserController@show') ;
         Route::post('/tutorial', 'TutorialController@store') ;
 
+        Route::post('/tutorial_new', 'TutorialController@store') ;
+
 
 
     });
